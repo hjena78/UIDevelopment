@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Area</title>
+     <!-- dependencies of bootstrap carousel -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+   
+    <!-- dependencies of bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+
+    <!-- css link tag -->
+    <link rel="stylesheet" href="./mainarea.css">
+</head>
+
+<body>
+    <!-- header area -->
+    <header>
+            <nav class="navbar navbar-expand-xl navbar-expand-lg  bg-warning navbar-dark;">
+
+                <!-- logo area -->
+                <a class="navbar-brand" href="">
+                    <img src="C:\Users\KIIT\Desktop\images\dog3.webp" alt="" style="width:70px; height:60px;"> &nbsp DOG Breeds
+                </a>
+    
+    
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+        
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="mynav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href=""> German Shepherd</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Bulldog</a></li>
+                        <li class="nav-item"><a class="nav-link" href=""> Golden Retriever</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Poodle</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Shih Tzu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">English Mastiff</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Border Collie</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Pomeranian</a></li>
+                    </ul>
+                </div>
+    
+            </nav>
+    </header>
+
+    <!-- carousel area -->
+    <div class="container-fluid">
+        
+        <div class="carousel slide" id="myslider" data-ride="carousel" data-interval="3000">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="C:\Users\KIIT\Desktop\images\dog1.jpg" alt="" >
+                    <div class="carousel-caption">
+                        <p>Pic One</p>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <img src="C:\Users\KIIT\Desktop\images\dog2.jpg" alt="">
+                    <div class="carousel-caption">
+                        <p>Pic Two</p>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <img src="C:\Users\KIIT\Desktop\images\dog3.jpg" alt="">
+                    <div class="carousel-caption">
+                        <p>Pic Three</p>
+                    </div>
+                </div>
+            </div>
+            
+            <ul class="carousel-indicators">
+                <li data-target="#myslider" data-slide-to="0" class="active"></li>
+                <li data-target="#myslider" data-slide-to="1"></li>
+                <li data-target="#myslider" data-slide-to="2"></li>
+            </ul>
+
+            <a class="carousel-control-prev" href="#myslider" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myslider" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+    </div>
+
+
+    <!-- main area -->
+
+    <section>
+        <!-- row-one is the userdefined class -->
+        <div class="row-one">
+
+            <div class="container-fluid">
+
+                <!-- one -->
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog1.webp" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog2.webp" alt="" class="img-fluid" >
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog3.webp" alt="" class="img-fluid"> 
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog4.webp" alt="" class="img-fluid">
+                    </div>
+
+                </div>
+
+                <!-- two -->
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog5.webp" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog6.webp" alt="" class="img-fluid" >
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog7.webp" alt="" class="img-fluid"> 
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog8.webp" alt="" class="img-fluid">
+                    </div>
+
+
+                </div>
+
+                <!-- three -->
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog9.webp" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="c ol-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog10.webp"alt="" class="img-fluid" >
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog11.webp" alt="" class="img-fluid"> 
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog12.webp" alt="" class="img-fluid">
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="row-one">
+
+            <div class="container-fluid">
+
+                <!-- one -->
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog1.webp" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog2.webp" alt="" class="img-fluid" >
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog3.webp" alt="" class="img-fluid"> 
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog4.webp" alt="" class="img-fluid">
+                    </div>
+
+                </div>
+
+                <!-- two -->
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog5.webp" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog6.webp" alt="" class="img-fluid" >
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog7.webp" alt="" class="img-fluid"> 
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog8.webp" alt="" class="img-fluid">
+                    </div>
+
+
+                </div>
+
+                <!-- three -->
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog9.webp" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog10.webp" alt="" class="img-fluid" >
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog11.webp" alt="" class="img-fluid"> 
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog12.webp" alt="" class="img-fluid">
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="row-one">
+
+            <div class="container-fluid">
+
+                <!-- one -->
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog1.webp" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog2.webp" alt="" class="img-fluid" >
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog3.webp" alt="" class="img-fluid"> 
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog4.webp" alt="" class="img-fluid">
+                    </div>
+
+                </div>
+
+                <!-- two -->
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog5.webp" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog6.webp" alt="" class="img-fluid" >
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog7.webp" alt="" class="img-fluid"> 
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog8.webp" alt="" class="img-fluid">
+                    </div>
+
+
+                </div>
+
+                <!-- three -->
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog9.webp" alt="" class="img-fluid" >
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog10.webp" alt="" class="img-fluid" >
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog11.webp" alt="" class="img-fluid"> 
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="C:\Users\KIIT\Desktop\images\dog12.webp" alt="" class="img-fluid">
+                    </div>
+                    
+                    <footer class="footer footerwhite">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <a href ="">Dog Breeds</a>
+
+                                    <div>
+                                        <h2>follow us</h2>
+                                        <ul>
+                                            <li class="d-inline-block"><a href="" class="fs24"><i class="fa fa-facebook"></i></a></li>
+                                            <li class="d-inline-block"><a href="" class="fs24"><i class="fa fa-twitter"></i></a></li>
+                                            <li class="d-inline-block"><a href="" class="fs24"><i class="fa fa-linkedin"></i></a></li>
+                                            <li class="d-inline-block"><a href="" class="fs24"><i class="fa fa-instagram"></i></a></li>   
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+
+                                    <h2> Our stores</h2>
+                                    <ul class="fmenu">
+                                        <li>Hyderabad</li>
+                                        <li>Bangalore</li>
+                                        <li>Kolkata</li>
+                                        <li>Delhi</li>
+                                        <li>Gangtok</li>
+                                    </ul>
+                                </div>
+                                  
+                                
+                                <div class="col-md-3">
+
+                                    <h2> Contact us</h2>
+                                    <ul class="fmenu">
+                                        <li>office-7890123456</li>
+                                        <li>office-8907654321</li>
+                                        <li>email-dogbreeds@reddit.com</li>
+                                        <li>email-breeders@reddit.com</li>
+                                    </ul>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </footer>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+ 
+</body>
+
+</html>

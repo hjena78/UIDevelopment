@@ -1,0 +1,21 @@
+div, p{
+    border: 1px solid blue;
+    padding: 5px;
+    margin: 5px;
+}
+@media(orientation : landscape){
+    body{
+        color: orange
+    }
+}
+@media(orientation : portrat){
+    body{
+        color: brown;
+
+    }
+}
+@media all and(max-width:500px){
+    body{
+        color: green;
+    }
+}

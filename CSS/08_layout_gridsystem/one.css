@@ -1,0 +1,41 @@
+section,
+div {
+    /* border: 2px solid blue; */
+    margin: 5px;
+    padding: 5px;
+    display: grid;
+    grid-template-rows: 250px;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.item1 {
+    min-height: 50vh;
+}
+
+.c1 {
+    min-height: 45vh;
+}
+
+.image-item{
+    width: 220px;
+}
+
+.header-item,
+.urls {
+    display: grid;
+    grid-template-rows: 60px;
+    grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+    font-size: larger;
+}
+header{
+    /* border: 1px solid blue; */
+    background-color: whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    position: relative;
+    top: -20px;
+}s

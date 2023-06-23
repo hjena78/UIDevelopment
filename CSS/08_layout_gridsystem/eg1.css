@@ -1,0 +1,19 @@
+section, div{
+    border: 2px blue;
+    margin: 5px;
+    padding: 50px;
+    display: grid;
+    grid-template-rows: 250px;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+section{
+    min-height: 50vh;
+
+}
+div{
+    min-height: 45vh;
+
+}
+img{
+    width: 220px;
+}
